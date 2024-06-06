@@ -1,0 +1,88 @@
+.elementor-kit-19 {
+    --e-global-color-primary: #5A5A5A;
+    --e-global-color-secondary: #212121;
+    --e-global-color-text: #000000;
+    --e-global-color-accent: #FF8200;
+    --e-global-typography-primary-font-family: "Inter";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Inter";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Inter";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Inter";
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-kit-19 button,
+.elementor-kit-19 input[type="button"],
+.elementor-kit-19 input[type="submit"],
+.elementor-kit-19 .elementor-button {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.elementor-kit-19 label {
+    font-size: 0px;
+}
+
+.elementor-kit-19 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-19 textarea,
+.elementor-kit-19 .elementor-field-textual {
+    border-style: solid !important;
+    border-width: 1px !important;
+    transition: 0ms;
+    border-color: #cbc1c1 !important;
+}
+
+.elementor-kit-19 input:focus:not([type="button"]):not([type="submit"]),
+.elementor-kit-19 textarea:focus,
+.elementor-kit-19 .elementor-field-textual:focus {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #616161;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 0px;
+}
+
+.elementor-element {
+    --widgets-spacing: 0px 0px;
+}
+
+    {}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-19 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
